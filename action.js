@@ -79,11 +79,9 @@ updateItemsea();
 window.addEventListener("resize", updateItemsea);
 
         let buynow = document.createElement("button");
-        if (!itemsea.querySelector(".buynow")) {
             buynow.innerText = "Buy Now";
             buynow.className = "buynow";
             itemsea.appendChild(buynow);
-        }
 
         buynow.addEventListener("click",(event)=>{
             event.stopPropagation();
@@ -154,7 +152,11 @@ home.addEventListener("click", () => {
     }
     items.forEach((item) => {
         item.style.display = "inline-block";
-        item.style.marginLeft = "0px";
+        item.style.marginLeft = "";
+        item.style.marginRight = "";
+        item.style.position = "";
+        item.style.left = "";
+        item.style.top = "";
     });
     banner.style.display = "block";
     shopnow.style.display = "block";
