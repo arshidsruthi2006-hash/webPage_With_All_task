@@ -289,13 +289,6 @@ background-color: rgb(51, 228, 228);
     align-content: center;
     cursor: pointer;
 } 
-
-/* .paraCart{
-    margin-top:-300px;
-    margin-left:450px;
-    color: black;
-    font-size:25px;
-} */
 .cartProduct{
    position: relative;
    left:400px;
@@ -318,8 +311,6 @@ background-color: rgb(51, 228, 228);
     width:60px;
     margin:50px;
     background-color: rgb(93, 89, 89);
-    /* position: relative; */
-    /* z-index: 99999; */
     pointer-events: auto;
     cursor: pointer;
 
@@ -328,9 +319,7 @@ background-color: rgb(51, 228, 228);
     text-align:center;
     font-size:25px;
 }
-/* .deleteButton:active{
-    background-color: brown;
-} */
+
 
 
    
