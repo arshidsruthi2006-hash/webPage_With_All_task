@@ -154,7 +154,7 @@ home.addEventListener("click", () => {
     }
     items.forEach((item) => {
         item.style.display = "inline-block";
-        item.style.marginLeft = "";
+        item.style.marginLeft = "0px";
     });
     banner.style.display = "block";
     shopnow.style.display = "block";
