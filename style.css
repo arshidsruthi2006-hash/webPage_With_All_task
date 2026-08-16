@@ -1,0 +1,523 @@
+#topPage{
+height:100px;
+width:1520px;
+background-color: rgb(156, 0, 246);
+}
+#Name{
+    font-size:35px;
+    color:white;
+    position: relative;
+    top:30px;
+    left:110px;
+}
+#search{
+  height: 45px;
+    width: 600px;
+    font-size:20px;
+    position: absolute;
+    top: 40px;
+    left: 350px;
+    border-radius:15px;
+    border-color:whitesmoke;
+    background-color: white;
+    
+}
+#symbole{
+  height: 45px;
+   width:45px;
+    font-size:30px;
+    position:relative;
+    top: -10px;
+    left: 950px;
+    border-radius:15px;
+    
+}
+#loginImage{
+    height:30px;
+    width:30px;
+    position: relative;
+    top:10px;
+
+}
+#logniHole{
+    height:30px;
+    width:100px;
+    font-size:23px;
+   position: relative;
+   left:1100px;
+   top:-50px;
+   text-align: center;
+   align-content: center;
+   color:white;
+  
+}
+#home{
+     height:30px;
+    width:200px;
+    font-size:23px;
+   position: relative;
+   left:600px;
+   top:100px;
+   font-size:25px;
+   text-align: center;
+   align-content: center;
+   color:blue;
+   text-decoration: underline;
+}
+#Cart{
+       height:30px;
+    width:80px;
+    font-size:23px;
+   position: relative;
+   left:1250px;
+   top:-80px;
+   text-align: center;
+   color:white;
+   align-content: center;
+  
+}
+#cartImage{
+        height:30px;
+    width:30px;
+    position: relative;
+    top:10px;
+}
+#banner{
+    height:600px;
+    width:1200px;
+    position: relative;
+    top:20px;
+    left:150px;
+    border:4px solid rgb(13, 95, 227);
+    z-index:-1;
+}
+#shopnow{
+    height:80px;
+    width:400px;
+    background-color: white;
+    color:rgb(113, 70, 195);
+    position: absolute;
+    top:500px;
+    left:900px;
+    font-size:40px;
+}
+#itemsBox{
+    margin-top:50px;
+    margin-left:30px;
+   height:1650px;
+   width:1450px;
+  
+   display:inline-block;
+   
+}
+.items{
+    height:500px;
+    width:300px;
+    margin-left:30px;
+   margin-top:30px;
+    border:5px solid rgb(156, 0, 246);
+ display:inline-block;
+
+}
+.img{
+    height:400px;
+    width:300px; 
+    
+}
+
+.information{
+      height:100px;
+    width:300px; 
+    font-size:25px;
+    text-align: center;
+    align-content:center;
+    background-color: rgb(156, 0, 246);
+    color:white;
+}
+#bag{
+    background-image: url("bag.jpg");
+    background-size: cover;
+}
+#choco{
+ background-image: url("choco.jpg");
+    background-size: cover;
+}
+#clock{
+ background-image: url("watch.jpg");
+    background-size: cover;
+}
+#cooker{
+ background-image: url("cooker.jpg");
+    background-size: cover;
+}
+
+#cooler{
+ background-image: url("cooler.jpg");
+    background-size: cover;
+}
+#dresse{
+ background-image: url("dresses.jpg");
+    background-size: cover;
+}
+#frig{
+ background-image: url("frig.jpg");
+    background-size: cover;
+}
+#laptop{
+ background-image: url("laptop.jpg");
+    background-size: cover;
+}
+#mirror{
+     background-image: url("mirror.jpg");
+    background-size: cover;
+}
+#neck{
+ background-image: url("neck.jpg");
+    background-size: cover;
+}
+#sarees{
+ background-image: url("sarees.jpg");
+    background-size: cover;
+}
+#shirt{
+ background-image: url("shirt.jpg");
+    background-size: cover;
+}
+#footer{
+ height:400px;
+ width:1500px;
+ border:2px solid black;   
+ margin-top:30px;
+ display: flex;
+background-color: rgb(34, 35, 35);
+  
+}
+.fotitem{
+    height:300px;
+    width:230px;
+    margin-top:60px;
+    margin-left:25px;
+    font-size:20px;
+    flex-direction: row;
+    color:white;
+
+}
+#last{
+    font-size:20px;
+    position:relative;
+    left:150px;
+    top:-90px;
+    color:white;
+}
+#symbole:hover{
+background-color: aqua;
+}
+#symbole:active{
+background-color: rgb(51, 228, 228);
+}
+#loginaction{
+    margin-top:30px;
+    height:350px;
+    width:350px;
+    background-color:white;
+    border:5px solid rgb(148, 11, 239);
+    border-radius:15px;
+    z-index: index 1;
+}
+#loginBox{
+    margin-top:10px;
+    height:40px;
+    width:250px;
+    font-size:15px;
+}
+#loginButton{
+    height:40px;
+    width:100px;
+    margin-top:40px;
+    background-color: rgb(148, 11, 239);
+    color:white;
+    border:2px solid rgb(148, 11, 239);
+    border-radius:10px;
+
+}
+.buynow{
+    margin-top:30px;
+    margin-left:40px;
+    height:60px;
+    width:200px;
+    background-color: rgb(129, 12, 238);
+    color:white;
+    font-size:25px;
+    border-radius:10px;
+}
+.paymentdiv{
+    height:500px;
+    width:690px;
+    border:20px solid rgb(119, 10, 228);
+    margin-left:400px;
+    border-radius:15px;
+    background-color:greenyellow;
+  
+}
+.paymentPara{
+    font-size:32px;
+    color:black;
+    text-align:center;
+    margin-bottom:100px;
+}
+#cash{
+    font-size:25px;
+    margin-left:0px;
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    cursor: pointer;
+    margin-left:250px;
+}
+ .order{
+    height:60px;
+    width:200px;
+    margin-top:40px;
+    margin-left:250px;
+    background-color: rgb(13, 114, 246);
+    border-radius:10px;
+    color:white;
+    font-size:25px;
+    text-align:center;
+    align-content: center;
+    cursor: pointer;
+} 
+
+/* .paraCart{
+    margin-top:-300px;
+    margin-left:450px;
+    color: black;
+    font-size:25px;
+} */
+.cartProduct{
+   position: relative;
+   left:400px;
+    margin:30px;
+    height:90px;
+    width:700px;
+    border:5px solid greenyellow;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(182, 59, 249);
+    color:white;
+    font-size:25px;
+    border-radius:10px;
+    z-index: 10;
+}
+.deleteButton{
+    color:white;
+    font-size:15px;
+    height:30px;
+    width:60px;
+    margin:50px;
+    background-color: rgb(93, 89, 89);
+    /* position: relative; */
+    /* z-index: 99999; */
+    pointer-events: auto;
+    cursor: pointer;
+
+}
+#cartContainer{
+    text-align:center;
+    font-size:25px;
+}
+/* .deleteButton:active{
+    background-color: brown;
+} */
+
+
+   
+
+
+
+
+
+@media (max-width :1000px){
+#topPage{
+height:100px;
+width:980px;
+background-color: rgb(156, 0, 246);
+}
+#Name{
+    font-size:35px;
+    color:white;
+    position: relative;
+    top:30px;
+    left:0px;
+}
+#search{
+  height: 45px;
+    width: 600px;
+    font-size:20px;
+    position: absolute;
+    top: 40px;
+    left:130px;
+    border-radius:15px;
+    border-color:whitesmoke;
+    background-color: white;
+    
+}
+#symbole{
+  height: 45px;
+   width:45px;
+    font-size:30px;
+    position:relative;
+    top: -10px;
+    left:720px;
+    border-radius:15px;
+    
+}
+#logniHole{
+    height:30px;
+    width:100px;
+    font-size:23px;
+   position: relative;
+   left:770px;
+   top:-60px;
+   text-align: center;
+   align-content: center;
+   color:white;
+  
+}
+#Cart{
+       height:30px;
+    width:80px;
+    font-size:23px;
+   position: relative;
+   left:870px;
+   top:-90px;
+   text-align: center;
+   color:white;
+   align-content: center;
+  
+}
+#banner{
+    height:530px;
+    width:960px;
+    position: relative;
+    top:20px;
+    left:0px;
+    border:4px solid rgb(13, 95, 227);
+}
+#shopnow{
+    height:80px;
+    width:400px;
+    background-color: white;
+    color:rgb(113, 70, 195);
+    position: absolute;
+    top:460px;
+    left:550px;
+    font-size:40px;
+}
+#itemsBox{
+    margin-top:50px;
+    margin-left:0px;
+   height:1650px;
+   width:930px;
+   display:inline-block;
+   
+   
+}
+.items{
+    height:600px;
+    width:400px;
+    margin-left:40px;
+   margin-top:30px;
+    border:5px solid rgb(156, 0, 246);
+ display:inline-block;
+
+}
+.img{
+    height:500px;
+    width:400px; 
+    
+}
+
+.information{
+      height:100px;
+    width:400px; 
+    font-size:25px;
+    text-align: center;
+    align-content:center;
+    background-color: rgb(156, 0, 246);
+    color:white;
+}
+#footer{
+ height:450px;
+ width:950px;
+ border:2px solid black;   
+ margin-top:100px;
+ display: flex;
+background-color: rgb(34, 35, 35);
+  
+}
+.fotitem{
+    height:300px;
+    width:230px;
+    margin-top:60px;
+    margin-left:25px;
+    font-size:20px;
+    flex-direction: row;
+    color:white;
+
+}
+#last{
+    font-size:18px;
+    position:relative;
+    left:0px;
+    top:-90px;
+    color:white;
+    text-align: center;
+}
+#loginaction{
+    margin-left:-200px;
+    margin-top:30px;
+    height:350px;
+    width:350px;
+    background-color:white;
+    border:5px solid rgb(148, 11, 239);
+    border-radius:15px;
+    z-index: index 1;
+}
+.paraCart{
+    margin-top:-200px;
+    margin-left:100px;
+    color: black;
+    font-size:25px;
+}
+.cartProduct{
+   position: relative;
+   left:50px;
+    margin:30px;
+    height:90px;
+    width:700px;
+    border:5px solid greenyellow;
+    text-align:center;
+    align-content: center;
+    background-color: rgb(182, 59, 249);
+    color:white;
+    font-size:25px;
+    border-radius:10px;
+    z-index:-2;
+}
+.deleteButton{
+    color:white;
+    font-size:15px;
+    height:30px;
+    width:60px;
+    margin:50px;
+    background-color: rgb(93, 89, 89);
+
+}
+.paymentdiv{
+    margin-left:100px;
+}
+
+}
