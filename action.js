@@ -52,7 +52,7 @@ loginButton.addEventListener("click",()=>{
 
 
 
-// let items = document.querySelectorAll(".items");
+
 let banner = document.getElementById("banner");
 let shopnow = document.getElementById("shopnow");
 let paymentdiv = null;
@@ -190,7 +190,6 @@ cartContainer.id = "cartContainer";
          let cart = JSON.parse(localStorage.getItem("cart")) || []; 
          if (cart.length === 0) {
              cartContainer.innerText="cart is empty";
-            //  cartContainer.append(home);
               return;
              } 
              
@@ -201,30 +200,9 @@ cartContainer.id = "cartContainer";
 
     let name = document.createElement("p");
     name.innerText = product.name;
-
-    // let deleteButton = document.createElement("button");
-    // deleteButton.innerText = "DELETE";
-    // deleteButton.className = "deleteButton";
-
     cartProduct.append(name);
-    // cartProduct.append(deleteButton);
 
     cartContainer.appendChild(cartProduct);
-
-    // deleteButton.onclick = function () {
-
-    //     console.log("DELETE CLICKED");
-
-    //     cart.splice(index, 1);
-
-    //     localStorage.setItem(
-    //         "cart",
-    //         JSON.stringify(cart)
-    //     );
-
-    //     cartProduct.remove();
-    // };
-
                 }); 
             })
             localStorage.removeItem("cart");
